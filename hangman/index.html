@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>VANILLA JAVASCRIPT HANGMAN GAME</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+    <!-- CSS only -->
+    <link href="src/bootstrap.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <h2>Hangman Game</h2><hr>
+      <h3>
+        <b>Use the alphabet below to guess the word, or Click hint to get a clue.</b>
+      </h3><hr>
+    </div>
+
+    <div class="wrapper">
+      <div class="alphabetButton" id="alphabetButtons"></div>
+      <p id="categoryName"></p>
+      <div id="hold"></div>
+      <p id="mylives" style="color: red;"></p>
+      <p id="clue" style="color: rgb(12, 12, 12);">Clue -</p>
+      <canvas id="stickman"
+        >This Text will show if the Browser does NOT support HTML5 Canvas
+        tag</canvas
+      >
+      <div class="container">
+        <button class="btn-2" id="hint">Hint</button>
+        <button class="btn-2" id="reset">Play again</button>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

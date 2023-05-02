@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/');
+body {
+    background-color:red;
+}
+
+/*.header{
+    padding: 45px 0 20px 40px;
+    border: 2px solid black;
+}*/
+
+.h2 {
+    background: #3b7687;
+    padding: 6px 10 6px 40px;
+}
+
+.h2 {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "arial narrow";
+}
+
+.h1 {
+    background: #3b7687;
+    
+}
+
+.h1 {
+    color: #3b7687;
+}
+
+
+
+.signupbox {
+    width: 70%;
+    height: auto;
+    background: #007bff;
+    color: #000;
+    top: -15%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.signupbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.signupbox input {
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.signupbox input[type="text"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.signupbox input[type="submit"],
+input[type="reset"] {
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    background: blue;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.signupbox input[type="submit"],
+input[type="reset"] :hover {
+    cursor: pointer;
+    color: #fff;
+}
+.signupbox input[type="submit"]:active {
+    background-color: cornflowerblue;
+   transform: scale3d(1.2,1.2,1.2);
+}
+.signupbox input[type="reset"]:active {
+    background-color: cornflowerblue;
+   transform: scale3d(1.2,1.2,1.2);
+}
+
+
+.loginbox {
+    width: 420px;
+    height: 420px;
+    background: #007bff;
+    color: #000;
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 50%);
+    box-sizing:border-box;
+    padding: 70px 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    left: calc(50% - 50px);
+    border: 1px solid black;
+}
+
+.loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"],
+input[type="reset"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: blue;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;  
+}
+
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color: #fff;
+}
+
+.loginbox input[type="submit"]:active{
+     transform: scale3d(1.1,1.1,1.1);
+}
+.loginbox input[type="reset"]:hover {
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color: #fff;
+}
+.loginbox input[type="submit"]:active{
+     transform: scale3d(1.1,1.1,1.1);
+}
+.loginbox input[type="reset"]:active{
+     transform: scale3d(1.1,1.1,1.1);
+}
+
+.loginbox a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.loginbox a:hover {
+    color: cadetblue;
+}
+
+
+
+.menu {
+    background: #00ccff;
+    border-bottom: 3px solid #060606;
+    border-top: 3px solid #060606;
+    padding:6px 10px 20px 40px
+}
+
+.menu a {
+    color: #5d05ec;
+    text-decoration: none;
+    font-size: 21px;
+    font-family: bahnschrift;
+    font-weight: bolder;
+}
+.menu a:hover{
+    color: dodgerblue;
+}
+
+
+
+
+.options {
+    width: 100%;
+    background: #007bff;
+    height: 80px;
+}
+
+.options ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.options ul li {
+    float: left;
+    margin-top: 20px;
+}
+
+.options ul li a {
+    width: 150px;
+    color: black;
+    display:block;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: century gothic;
+    font-weight: bold;
+}
+
+.options a:hover {
+    background: #0099ff;
+}
+
+.options ul li ul {
+    position: absolute;
+    background: #4080bf;
+}
+
+.options ul li ul li {
+    float: none;
+}
+
+.options ul li ul {
+    display: none;
+}
+
+.options ul li:hover ul {
+    display: block;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar {
+    position: absolute;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: grey;
+    transition: all .5s ease;
+}
+
+.sidebar header {
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: black;
+    user-select: none;
+}
+
+.sidebar ul a {
+    float:'';
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(225, 225, 225, .1);
+    border-bottom: 1px solid black;
+    transition: .4s;
+}
+
+.sidebar ul li:hover a {
+    padding-left: 50px;
+}
+
+.sidebar ul a i {
+    margin-left: 16px;
+}
+
+#check {
+    display: none;
+}
+
+label #btn,
+label #cancel {
+    position: relative;
+    cursor: pointer;
+    background: #042331;
+    border-radius: 3px;
+}
+
+label #btn {
+    left: 40px;
+    top: 25px;
+    font-size: 35px;
+    color: white;
+    padding: 6px 12px;
+    transition: all .5s;
+}
+
+label #cancel {
+    z-index: 1111;
+    left: -195px;
+    top: 17px;
+    font-size: 30px;
+    color: #0a5275;
+    padding: 4px 9px;
+    transition: all .5s ease;
+}
+
+#check:checked ~ .sidebar {
+    left: 0;
+}
+
+#check:checked ~ label #btn {
+    left: 255px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#check:checked ~ label #cancel {
+    left: 195px;
+}
+
+#check:checked ~ .bisect {
+    margin-left: 250px;
+}
